@@ -1,17 +1,24 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- <headerpage/> -->
+    <!-- <homepage/> -->
+    <!-- <detailpage/>
+    <footerpage/> -->
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import headerpage from './components/header.vue'
+// import footerpage from './components/footer.vue'
+//import homepage from './components/homepage.vue'
+//import detailpage from './components/detailpage.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    // headerpage,
+    // footerpage,
+    // detailpage
   }
 }
 </script>
@@ -21,8 +28,5 @@ export default {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
