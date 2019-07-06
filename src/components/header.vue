@@ -13,6 +13,7 @@
         <button v-on:click="switchon">Category</button>
         <button>Login</button>
         <button>Get Started</button>
+        
       </div>
 
        <div class="category-popup" v-if="flag">
